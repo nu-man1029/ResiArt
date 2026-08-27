@@ -10,16 +10,16 @@ window.S011_PROJECT_CONFIG = {
     {text:"仕上げ強度",status:"表現修正済み",replacement:"意匠の強弱"}
   ]},
   slides:[
-    {id:"P1",title:"スーパーカーを、もっと美しく見せる床へ。",src:"assets/images/proposal/ai-proposal-p1-cover.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
+    {id:"P1",title:"スーパーカーを、もっと美しく見せる床へ。",src:"assets/images/proposal/p1-luxury-showroom-v2.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
     {id:"P2",title:"なぜ今、この提案なのか",src:"assets/slides/p2.png"},
-    {id:"P3",title:"主役は床ではなく、スーパーカーです。",src:"assets/slides/p3.png",assetStatus:"AI提案イメージ・仮素材"},
-    {id:"P4",title:"床の存在感を調整できます。",src:"assets/images/proposal/ai-proposal-p4-comparison.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
+    {id:"P3",title:"主役は床ではなく、スーパーカーです。",src:"assets/images/proposal/p3-supercar-hero-v2.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
+    {id:"P4",title:"床の存在感を調整できます。",src:"assets/images/proposal/p4-balanced-v2.png",assetStatus:"AI提案イメージ・中間案・ChatGPT生成・仮素材"},
     {id:"P5",title:"条件から床の答えを組み立てます。",src:"assets/slides/p5.png"},
     {id:"P6",title:"同じ判断軸で比べて決められます。",src:"assets/slides/p6.png",assetStatus:"性能・施工仕様は正式確認待ち"},
     {id:"P7",title:"この空間に一番合う床を、一緒に決めたい。",src:"assets/slides/p7.png"},
-    {id:"P8",title:"完成する前から、一緒に見る。",src:"assets/slides/p8.png",assetStatus:"AI提案イメージ・仮素材"}
+    {id:"P8",title:"完成する前から、一緒に見る。",src:"assets/images/proposal/p8-after-completion-v2.png",assetStatus:"AI完成イメージ・ChatGPT生成・仮素材"}
   ],
-  beforeAfterPairs:[{componentId:"ba-01",direction:"horizontal",initialPosition:50,before:{src:"assets/images/before-after/before-ai-proposal-v1.png",label:"BEFORE",assetType:"AI提案イメージ"},after:{src:"assets/images/before-after/after-ai-proposal-v1.png",label:"AFTER / 完成イメージ",assetType:"AI完成イメージ"},status:"仮素材・実写真差し替え待ち"}],
+  beforeAfterPairs:[{componentId:"ba-01",direction:"horizontal",initialPosition:50,before:{src:"assets/images/before-after/before-ai-proposal-v1.png",label:"BEFORE",assetType:"AI提案イメージ"},after:{src:"assets/images/proposal/p8-after-completion-v2.png",label:"AFTER / 完成イメージ",assetType:"AI完成イメージ"},status:"仮素材・実写真差し替え待ち"}],
   estimate:{status:"pending",pdfPath:"documents/estimate/estimate.pdf",displayLabel:"正式見積書 差し替え待ち"},
   line:{status:"pending",officialUrl:null,placeholderLabel:"LINE設定待ち",messageFields:["projectId","imageId","inquiryType","selection"]},
   contactTypes:["このデザインについて質問する","気になったことをLINEで送る","別の雰囲気も見たい","見積について確認する","サンプルを見たい","打合せを希望する"],
