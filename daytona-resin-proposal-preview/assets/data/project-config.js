@@ -10,10 +10,10 @@ window.S011_PROJECT_CONFIG = {
     {text:"仕上げ強度",status:"表現修正済み",replacement:"意匠の強弱"}
   ]},
   slides:[
-    {id:"P1",title:"スーパーカーを、もっと美しく見せる床へ。",src:"assets/slides/p1.png",assetStatus:"デイトナ公式サイト由来参考画像・仮利用"},
+    {id:"P1",title:"スーパーカーを、もっと美しく見せる床へ。",src:"assets/images/proposal/ai-proposal-p1-cover.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
     {id:"P2",title:"なぜ今、この提案なのか",src:"assets/slides/p2.png"},
     {id:"P3",title:"主役は床ではなく、スーパーカーです。",src:"assets/slides/p3.png",assetStatus:"AI提案イメージ・仮素材"},
-    {id:"P4",title:"床の存在感を調整できます。",src:"assets/slides/p4.png",assetStatus:"AI提案イメージ・仮素材"},
+    {id:"P4",title:"床の存在感を調整できます。",src:"assets/images/proposal/ai-proposal-p4-comparison.png",assetStatus:"AI提案イメージ・ChatGPT生成・仮素材"},
     {id:"P5",title:"条件から床の答えを組み立てます。",src:"assets/slides/p5.png"},
     {id:"P6",title:"同じ判断軸で比べて決められます。",src:"assets/slides/p6.png",assetStatus:"性能・施工仕様は正式確認待ち"},
     {id:"P7",title:"この空間に一番合う床を、一緒に決めたい。",src:"assets/slides/p7.png"},
