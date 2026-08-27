@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /ResiArt/daytona-resin-proposal-preview/

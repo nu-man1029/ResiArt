@@ -1,0 +1,27 @@
+window.S011_PROJECT_CONFIG = {
+  schemaVersion:"1.1",
+  core:{locale:"ja-JP",viewerType:"sales-proposal",sections:["proposal","vision","compare","gallery","estimate","contact","next"]},
+  project:{projectId:"S011_202608_スーパーカー展示施設_レジンフロア提案",skillId:"S011",status:"placeholder-complete-awaiting-real-assets",title:"スーパーカー展示施設兼事務所・レジンフロア提案",privateSharingRequired:true,confirmationVersion:"01_仮素材完成確認版"},
+  customer:{name:"株式会社デイトナ",website:"https://www.09daytona.com/",websiteAssetUse:"仮利用・出典記録済み・本番利用可否未確認"},
+  productData:{adapterId:"resin-floor",displayName:"レジンフロア",factCheckFlags:[
+    {text:"色・艶・模様を自由に調整",status:"公開文面から除外済み・正式仕様要確認",replacement:"色・艶・模様の調整幅は正式仕様確認後にご案内"},
+    {text:"艶やかからマットまで調整可能",status:"公開文面から除外済み・正式仕様要確認",replacement:"艶の選択肢は正式仕様確認後にご案内"},
+    {text:"継ぎ目のない一体的な広がり",status:"公開文面から除外済み・現地条件要確認",replacement:"一体感のある広がりと艶を目指す"},
+    {text:"仕上げ強度",status:"表現修正済み",replacement:"意匠の強弱"}
+  ]},
+  slides:[
+    {id:"P1",title:"スーパーカーを、もっと美しく見せる床へ。",src:"assets/slides/p1.png",assetStatus:"デイトナ公式サイト由来参考画像・仮利用"},
+    {id:"P2",title:"なぜ今、この提案なのか",src:"assets/slides/p2.png"},
+    {id:"P3",title:"主役は床ではなく、スーパーカーです。",src:"assets/slides/p3.png",assetStatus:"AI提案イメージ・仮素材"},
+    {id:"P4",title:"床の存在感を調整できます。",src:"assets/slides/p4.png",assetStatus:"AI提案イメージ・仮素材"},
+    {id:"P5",title:"条件から床の答えを組み立てます。",src:"assets/slides/p5.png"},
+    {id:"P6",title:"同じ判断軸で比べて決められます。",src:"assets/slides/p6.png",assetStatus:"性能・施工仕様は正式確認待ち"},
+    {id:"P7",title:"この空間に一番合う床を、一緒に決めたい。",src:"assets/slides/p7.png"},
+    {id:"P8",title:"完成する前から、一緒に見る。",src:"assets/slides/p8.png",assetStatus:"AI提案イメージ・仮素材"}
+  ],
+  beforeAfterPairs:[{componentId:"ba-01",direction:"horizontal",initialPosition:50,before:{src:"assets/images/before-after/before-ai-proposal-v1.png",label:"BEFORE",assetType:"AI提案イメージ"},after:{src:"assets/images/before-after/after-ai-proposal-v1.png",label:"AFTER / 完成イメージ",assetType:"AI完成イメージ"},status:"仮素材・実写真差し替え待ち"}],
+  estimate:{status:"pending",pdfPath:"documents/estimate/estimate.pdf",displayLabel:"正式見積書 差し替え待ち"},
+  line:{status:"pending",officialUrl:null,placeholderLabel:"LINE設定待ち",messageFields:["projectId","imageId","inquiryType","selection"]},
+  contactTypes:["このデザインについて質問する","気になったことをLINEで送る","別の雰囲気も見たい","見積について確認する","サンプルを見たい","打合せを希望する"],
+  nextSteps:["サンプル確認","デザイン案比較","施工条件確認","再見積","最終仕様決定","契約","施工"]
+};
